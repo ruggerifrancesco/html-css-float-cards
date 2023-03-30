@@ -33,13 +33,7 @@ body {
 img {
     height: 100px;
     float: left;
-}
-
-a {
-    color: var(--email-link-color);
-    text-decoration: none;
-    font-size: 0.9rem;
-    display: block;
+    margin-right: 20px;
 }
 
     /* Header Section */
@@ -77,6 +71,20 @@ a {
 
 .card-title {
     font-family: var(--main-card-title);
+    padding-top: 12px;
+}
+
+.card-profession-info {
+    display: inline-block;
+    padding-top: 6px;
+}
+
+.mail-link {
+    color: var(--email-link-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    padding-top: 6px;
 }
 
 /* Little Decoration Mail Link */

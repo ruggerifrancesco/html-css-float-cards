@@ -31,7 +31,7 @@ body {
 
     /* Header Section */
     header {
-        margin: 50px auto;
+        margin: 50px 0 20px 0;
         text-align: center;
     }
 
@@ -41,7 +41,7 @@ body {
     }
 
     p {
-        margin: 40px 0;
+        margin: 40px 0 0 0;
         font-weight: 400;
         line-height: 1.3rem;
     }
@@ -49,16 +49,17 @@ body {
 /* Main Content Section */
 .cards-column {
     float: left;
-    border: 1px solid red;
     width: 33.33%;
-    padding: 10px;
-    height: 300px; 
+    padding: 20px 5px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
-/* .card-item { */
-    /* border: 1px solid magenta; */
-    /* float: left; */
-/* } */
+.card-item {
+    border: 1px solid magenta;
+    height: 100px; /* Should be removed. Only for demonstration */
+    margin: 20px 0 20px 0;
+    background-color: var(--card-bg-primary);
+}
 
 /* Clearfix Float Rule */
 .clearfix::after {

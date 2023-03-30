@@ -65,7 +65,7 @@ img {
     background-color: var(--card-bg-primary);
     box-shadow: 5px 10px 18px #888888;
     color: var(--color-white);
-}
+} 
 
 .card-title {
     font-family: var(--main-card-title);

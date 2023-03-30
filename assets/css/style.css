@@ -31,9 +31,8 @@ body {
 }
 
 img {
-    height: 100px;
+    width: 30%;
     float: left;
-    margin-right: 20px;
 }
 
     /* Header Section */
@@ -67,9 +66,16 @@ img {
     color: var(--color-white);
 } 
 
+/* Info Content Section  */
+.card-info-container {
+    float: left;
+    margin-top: 12px;
+    width: 70%;
+    padding-left: 12px;
+}
+
 .card-title {
     font-family: var(--main-card-title);
-    padding-top: 12px;
 }
 
 .card-profession-info {

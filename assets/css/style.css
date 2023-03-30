@@ -10,6 +10,7 @@
     --card-bg-primary: #0F0E17;
     --title-color-primary: #E53170;
     --email-link-color: #42B5EE;
+    --email-link-hover:rgb(150, 212, 243);
 
     /* Generic Colors */
     --color-white: white;
@@ -32,6 +33,13 @@ body {
 img {
     height: 100px;
     float: left;
+}
+
+a {
+    color: var(--email-link-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
 }
 
     /* Header Section */
@@ -64,6 +72,16 @@ img {
     margin: 20px 0 50px 0;
     background-color: var(--card-bg-primary);
     box-shadow: 5px 10px 18px #888888;
+    color: var(--color-white);
+}
+
+.card-title {
+    font-family: var(--main-card-title);
+}
+
+/* Little Decoration Mail Link */
+.mail-link:hover {
+    color: var(--email-link-hover);
 }
 
 /* Clearfix Float Rule */

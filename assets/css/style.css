@@ -13,12 +13,39 @@
 
     /* Generic Colors */
     --color-white: white;
-    --color-black: black;
 
     /* Fonts Variables */
-    --main-title: font-family: 'Lilita One', cursive;
-    --main-card-title: font-family: 'Montserrat Alternates', sans-serif;
-    --content-font: font-family: 'Ubuntu', sans-serif;
+    --main-title: 'Lilita One', cursive;
+    --main-card-title: 'Montserrat Alternates', sans-serif;
+    --content-font: 'Ubuntu', sans-serif;
 }
 
 /* ---- CSS Design Page Begin ---- */
+
+/* Main Tags */
+body {
+    font-family: var(--content-font);
+    margin: 0 auto;
+    width: 70%;
+}
+
+    /* Header Section */
+    header {
+        margin: 50px auto;
+        text-align: center;
+        border: 1px solid magenta;
+    }
+
+    h1 {
+        color: var(--title-color-primary);
+        font-family: var(--main-title);
+    }
+
+    p {
+        border: 1px solid red;
+        margin: 40px 0;
+        font-weight: 400;
+        line-height: 1.3rem;
+    }
+
+/* Main Content Section */

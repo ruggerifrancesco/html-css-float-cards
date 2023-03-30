@@ -1,0 +1,24 @@
+/* Style Reset Rule */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+    --card-bg-primary: #0F0E17;
+    --title-color-primary: #E53170;
+    --email-link-color: #42B5EE;
+
+    /* Generic Colors */
+    --color-white: white;
+    --color-black: black;
+
+    /* Fonts Variables */
+    --main-title: font-family: 'Lilita One', cursive;
+    --main-card-title: font-family: 'Montserrat Alternates', sans-serif;
+    --content-font: font-family: 'Ubuntu', sans-serif;
+}
+
+/* ---- CSS Design Page Begin ---- */

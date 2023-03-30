@@ -55,7 +55,6 @@ body {
 }
 
 .card-item {
-    border: 1px solid magenta;
     height: 100px; /* Should be removed. Only for demonstration */
     margin: 20px 0 20px 0;
     background-color: var(--card-bg-primary);

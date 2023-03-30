@@ -33,7 +33,6 @@ body {
     header {
         margin: 50px auto;
         text-align: center;
-        border: 1px solid magenta;
     }
 
     h1 {
@@ -42,10 +41,23 @@ body {
     }
 
     p {
-        border: 1px solid red;
         margin: 40px 0;
         font-weight: 400;
         line-height: 1.3rem;
     }
 
 /* Main Content Section */
+.cards-column {
+    border: 1px solid red;
+}
+
+.card-item {
+    border: 1px solid magenta;
+}
+
+/* Clearfix Float Rule */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

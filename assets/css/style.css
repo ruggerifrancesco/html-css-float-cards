@@ -48,12 +48,17 @@ body {
 
 /* Main Content Section */
 .cards-column {
+    float: left;
     border: 1px solid red;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
 }
 
-.card-item {
-    border: 1px solid magenta;
-}
+/* .card-item { */
+    /* border: 1px solid magenta; */
+    /* float: left; */
+/* } */
 
 /* Clearfix Float Rule */
 .clearfix::after {

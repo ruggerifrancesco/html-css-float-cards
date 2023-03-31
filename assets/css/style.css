@@ -45,6 +45,7 @@ img {
     h1 {
         color: var(--title-color-primary);
         font-family: var(--main-title);
+        font-size: 3rem;
     }
 
     p {

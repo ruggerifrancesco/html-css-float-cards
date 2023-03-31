@@ -27,7 +27,8 @@
 body {
     font-family: var(--content-font);
     margin: 0 auto;
-    width: 75%;
+    max-width: 1200px;
+    /* Changed With with max width forflexing containers */
 }
 
 img {

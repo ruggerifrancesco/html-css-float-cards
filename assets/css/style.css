@@ -69,9 +69,9 @@ img {
 /* Info Content Section  */
 .card-info-container {
     float: left;
-    margin-top: 12px;
+    margin-top: 20px;
     width: 70%;
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
 .card-title {
@@ -80,7 +80,7 @@ img {
 
 .card-profession-info {
     display: inline-block;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .mail-link {
@@ -88,7 +88,7 @@ img {
     text-decoration: none;
     font-size: 0.9rem;
     display: block;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 /* Little Decoration Mail Link */
